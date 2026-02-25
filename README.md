@@ -75,5 +75,5 @@ Quero atuar em um ambiente profissional onde eu possa:
 ---
 
 ## 📫 Contato
-- LinkedIn: https://www.linkedin.com/in/mariano-ag-caceres/
+- LinkedIn: https://www.linkedin.com/in/marianoccrs/
 - Local: Rio de Janeiro — Brasil
