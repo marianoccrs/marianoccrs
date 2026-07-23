@@ -1,79 +1,129 @@
 <div align="center">
 
-# Mariano Cáceres (marianoccrs)
-### Engenharia de Software • Cibersegurança • Back-end Python • Segurança de Aplicações
+# Mariano Cáceres
 
-<a href="https://www.linkedin.com/in/mariano-ag-caceres/" target="_blank">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Mariano%20C%C3%A1ceres-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+**Software Engineering & Cybersecurity Student** · Back-end Python · Application Security
 
-<img alt="Profile Views" src="https://komarev.com/ghpvc/?username=marianoccrs&style=for-the-badge" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marianoccrs/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mariano.caceres.dev@gmail.com)
+![Profile views](https://img.shields.io/badge/dynamic/json?style=flat-square&color=0f2136&label=profile%20views&query=%24.count&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fmarianoccrs%2Fprofile-readme)
 
 </div>
 
----
+<br>
 
-## 👋 Sobre mim
-🎓 Estudante de **Engenharia de Software e Segurança Cibernética (3º semestre)** — Estácio de Sá  
-🔐 Foco em **Segurança de Aplicações** e **Back-end com Python**  
-📌 Busco minha **primeira oportunidade de estágio** para contribuir com soluções seguras e evoluir tecnicamente
+## Sobre
 
-Tenho experiência prática em **Python, SQL, Git/GitHub e construção de APIs**, aplicando fundamentos de desenvolvimento seguro e noções do **OWASP Top 10** em projetos próprios (autenticação, proteção de senhas e manipulação segura de dados).  
-📚 **Inglês avançado** para leitura de documentação técnica e conteúdos internacionais.
+Estudante cursando **Engenharia de Software** e **Cibersegurança** simultaneamente
+(Universidade Estácio de Sá), com foco em desenvolvimento back-end seguro e
+segurança de aplicações (AppSec).
 
----
+Trabalho com Python, SQL e APIs REST aplicando fundamentos de secure coding e
+o OWASP Top 10 desde o design, não como uma camada adicionada depois. Busco
+minha primeira oportunidade de estágio para atuar com código em produção e
+evoluir junto de um time técnico.
 
-## 🧰 Tecnologias & Ferramentas (Badges)
+<br>
+
+## Stack
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Desenvolvimento**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td valign="top" width="50%">
+
+**Segurança**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square)
+![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square&logo=owasp&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Projetos
+
+Poucos projetos, focados em back-end + segurança, cada um com decisões de
+design documentadas no próprio README (não só o que o código faz, mas por quê).
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**[secure-auth-api](https://github.com/marianoccrs/secure-auth-api)**
+
+API de autenticação: hash de senha com bcrypt, JWT, bloqueio contra
+força bruta e política de senha.
+
+`Python` `FastAPI` `SQLAlchemy`
+
+</td>
+<td width="33%" valign="top">
+
+**[log-analyzer-python](https://github.com/marianoccrs/log-analyzer-python)**
+
+CLI que analisa logs SSH/Apache e detecta padrões de brute-force e
+scanning, com relatório em CSV/JSON.
+
+`Python`
+
+</td>
+<td width="33%" valign="top">
+
+**[secure-crud-api](https://github.com/marianoccrs/secure-crud-api)**
+
+API REST com isolamento de dados por usuário — proteção contra BOLA
+(#1 do OWASP API Security Top 10).
+
+`Python` `FastAPI` `SQLAlchemy`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Prova técnica
+
+Trecho real do `secure-auth-api` — bloqueio de conta após tentativas de login
+repetidas, para mitigar força bruta:
+
+```python
+def register_failed_attempt(db: Session, user: models.User) -> None:
+    user.failed_login_attempts += 1
+    if user.failed_login_attempts >= MAX_FAILED_ATTEMPTS:
+        user.locked_until = datetime.now(timezone.utc) + timedelta(
+            minutes=LOCKOUT_DURATION_MINUTES
+        )
+    db.commit()
+```
+
+<br>
+
+## Estatísticas
+
 <div align="center">
-
-### Back-end / Desenvolvimento
-<img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python" />
-<img src="https://img.shields.io/badge/SQL-000?style=for-the-badge&logo=postgresql" />
-<img src="https://img.shields.io/badge/REST%20API-000?style=for-the-badge&logo=fastapi" />
-<img src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git" />
-<img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github" />
-
-### Segurança
-<img src="https://img.shields.io/badge/OWASP%20Top%2010-000?style=for-the-badge&logo=owasp" />
-<img src="https://img.shields.io/badge/AppSec-000?style=for-the-badge&logo=securityscorecard" />
-<img src="https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux" />
-
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=marianoccrs&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marianoccrs&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
----
+<br>
 
-## ⭐ Projetos em destaque (layout profissional)
-> *A ideia aqui é ter poucos projetos, bem feitos, com foco em backend + segurança.*
+## Contato
 
-- 🔐 **Secure Auth API (Python)** — autenticação, hash de senha, validação e boas práticas de AppSec  
-  👉 `secure-auth-api` (repo)
-
-- 🕵️ **Log Analyzer (Python)** — análise de logs (SSH/Apache), detecção de padrões suspeitos, relatório em CSV/JSON  
-  👉 `log-analyzer-python` (repo)
-
-- 🌐 **API + SQL (CRUD seguro)** — API REST com SQL, validações e boas práticas de manipulação de dados  
-  👉 `secure-crud-api` (repo)
-
----
-
-## 📊 Estatísticas (automáticas)
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=marianoccrs&show_icons=true&hide_title=true&include_all_commits=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marianoccrs&layout=compact&langs_count=8" />
-
-</div>
-
----
-
-## 🎯 Objetivo
-Quero atuar em um ambiente profissional onde eu possa:
-- contribuir com **código limpo e seguro**
-- evoluir em **backend e AppSec**
-- aprender com **times e práticas reais de mercado**
-
----
-
-## 📫 Contato
-- LinkedIn: https://www.linkedin.com/in/marianoccrs/
-- Local: Rio de Janeiro — Brasil
+📧 mariano.caceres.dev@gmail.com · 🔗 [linkedin.com/in/marianoccrs](https://www.linkedin.com/in/marianoccrs/) · 📍 Rio de Janeiro, Brasil
