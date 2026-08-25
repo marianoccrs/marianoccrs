@@ -1,129 +1,210 @@
 <div align="center">
+Mariano Cáceres
 
-# Mariano Cáceres
+Software Engineering & Cybersecurity Student · Clinical Data · Data Cleaning · Python
 
-**Software Engineering & Cybersecurity Student** · Back-end Python · Application Security
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marianoccrs/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mariano.caceres.dev@gmail.com)
-![Profile views](https://img.shields.io/badge/dynamic/json?style=flat-square&color=0f2136&label=profile%20views&query=%24.count&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fmarianoccrs%2Fprofile-readme)
+
+
+</div> <br>
+Sobre
+
+Estudante de Engenharia de Software e Cibersegurança na Universidade Estácio de Sá, com interesse em Dados Clínicos, Data Analytics e qualidade de dados.
+
+Tenho desenvolvido projetos práticos em Python, SQL, pandas e Excel, com foco em limpeza, padronização, validação, identificação de inconsistências e geração de indicadores.
+
+Meu objetivo é construir uma carreira na interface entre dados, tecnologia e pesquisa clínica, desenvolvendo conhecimento em processos de Data Cleaning, análise estatística, qualidade, rastreabilidade e gerenciamento de dados clínicos.
+
+Busco minha primeira oportunidade na área de Dados Clínicos, onde possa aprender com profissionais experientes, seguir procedimentos estabelecidos e contribuir com organização, análise e qualidade das informações.
+
+<br>
+Stack
+<table> <tr> <td valign="top" width="50%">
+
+Dados & Análise
+
+
+
+
+
+
+
+</td> <td valign="top" width="50%">
+
+Tecnologia & Qualidade
+
+
+
+
+
+Data Cleaning · Data Validation · Data Quality · REST APIs
+
+</td> </tr> </table> <br>
+Projeto em destaque
+📊 estudo-clinico-data-cleaning
+
+Projeto pessoal desenvolvido para simular etapas de tratamento e preparação de dados de um estudo clínico.
+
+A base utilizada é fictícia e contém problemas comuns encontrados durante processos de qualidade de dados, permitindo praticar um fluxo semelhante ao de atividades de Data Cleaning.
+
+O projeto realiza
+Padronização de categorias;
+Padronização de formatos de data;
+Identificação e remoção de duplicatas exatas;
+Identificação e sinalização de dados ausentes;
+Detecção e sinalização de possíveis outliers;
+Cálculo de indicadores antes/depois;
+Análise agregada por grupo;
+Cálculo de média e desvio padrão;
+Exportação dos dados tratados para Excel;
+Geração de resumo consolidado para análise.
+
+Python pandas openpyxl Excel
+
+<br>
+🧪 Data Quality
+
+Uma das principais decisões do projeto foi não corrigir automaticamente informações potencialmente problemáticas.
+
+Dados ausentes e possíveis outliers são sinalizados para revisão em vez de serem modificados silenciosamente.
+
+A ideia é preservar a rastreabilidade e integridade da informação, permitindo que uma pessoa responsável pelo estudo avalie o contexto antes de decidir como aquele dado deve ser tratado.
+
+Esse princípio também orienta minha forma de trabalhar com dados:
+
+Identificar uma inconsistência é diferente de decidir como ela deve ser corrigida.
+
+<br>
+🔬 Contexto do estudo simulado
+
+O projeto utiliza uma base fictícia de um estudo de eficácia de hidratante facial.
+
+A base contém situações como:
+
+Dados brutos
+    ↓
+Validação inicial
+    ↓
+Padronização
+    ↓
+Identificação de inconsistências
+    ↓
+Sinalização de dados suspeitos
+    ↓
+Cálculo de indicadores
+    ↓
+Resumo estatístico
+    ↓
+Exportação para Excel
+
+
+O resultado final é um arquivo .xlsx contendo:
+
+Dados_Limpos
+Resumo_Por_Tipo_Pele
+<br>
+📈 Análise
+
+Além da limpeza dos dados, o projeto calcula a variação de hidratação antes/depois por participante.
+
+Também é produzido um resumo por tipo de pele contendo:
+
+média da variação;
+desvio padrão;
+exclusão dos outliers previamente sinalizados.
+
+O objetivo é praticar não apenas o tratamento da base, mas também a transformação dos dados em informações úteis para análise.
+
+<br>
+🛠️ Como executar
+pip install pandas openpyxl
+python limpar_dados.py
+
+
+Saída esperada:
+
+Linhas carregadas: 15
+Duplicatas removidas: 1
+Registros com pelo menos um dado ausente (sinalizados, não removidos): 3
+Outliers sinalizados em 'hidratacao_antes': 1
+
+Arquivo Excel gerado em: output/estudo_hidratante_limpo.xlsx
+
+<br>
+🔎 Outros projetos
+🔐 secure-auth-api
+
+API de autenticação desenvolvida em Python, utilizada para praticar desenvolvimento de software, banco de dados e qualidade de aplicações.
+
+Python FastAPI SQLAlchemy
+
+🛡️ secure-crud-api
+
+API REST com isolamento de dados por usuário e controle de autorização.
+
+Projeto desenvolvido para estudar integridade, controle de acesso e segurança de aplicações.
+
+Python FastAPI SQLAlchemy
+
+🔎 log-analyzer-python
+
+CLI em Python para análise de logs SSH e Apache, identificando padrões e gerando relatórios estruturados em CSV e JSON.
+
+Python Data Analysis Linux
+
+<br>
+📚 Atualmente estudando
+Data Cleaning
+Data Quality
+Python para análise de dados
+pandas
+SQL e bancos de dados
+Excel
+Estatística aplicada
+Visualização de dados
+Processos de gerenciamento de dados clínicos
+Pesquisa Clínica
+R
+Boas práticas de documentação e rastreabilidade
+<br>
+🎯 Objetivo profissional
+
+Busco uma oportunidade de Analista de Dados Clínicos Júnior / estágio em Dados Clínicos, com interesse em atuar nas etapas de:
+
+preparação e limpeza de bases;
+validação e conferência de dados;
+identificação de inconsistências;
+criação de controles e indicadores;
+organização e documentação de informações;
+análises estatísticas;
+qualidade e integridade dos dados;
+suporte às diferentes etapas do ciclo de dados de estudos clínicos.
+
+Tenho interesse em desenvolver conhecimento em ferramentas e processos utilizados no setor, incluindo R, plataformas EDC e gerenciamento de dados clínicos.
+
+<br>
+🧠 O que procuro desenvolver
+
+Quero construir uma base sólida em Clinical Data Management e Data Analytics, combinando minha formação em tecnologia com conhecimento estatístico e processos de qualidade de dados.
+
+Minha formação em Engenharia de Software também contribui para uma abordagem orientada a:
+
+organização;
+rastreabilidade;
+automação;
+validação;
+documentação;
+controle de qualidade;
+atenção aos detalhes.
+<br>
+📫 Contato
+
+📧 mariano.caceres.dev@gmail.com
+🔗 linkedin.com/in/marianoccrs
+📍 Rio de Janeiro, Brasil
+
+<br> <div align="center">
+
+Data quality, analytical thinking and technology applied to clinical research.
 
 </div>
-
-<br>
-
-## Sobre
-
-Estudante cursando **Engenharia de Software** e **Cibersegurança** simultaneamente
-(Universidade Estácio de Sá), com foco em desenvolvimento back-end seguro e
-segurança de aplicações (AppSec).
-
-Trabalho com Python, SQL e APIs REST aplicando fundamentos de secure coding e
-o OWASP Top 10 desde o design, não como uma camada adicionada depois. Busco
-minha primeira oportunidade de estágio para atuar com código em produção e
-evoluir junto de um time técnico.
-
-<br>
-
-## Stack
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**Desenvolvimento**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</td>
-<td valign="top" width="50%">
-
-**Segurança**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square)
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square&logo=owasp&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Projetos
-
-Poucos projetos, focados em back-end + segurança, cada um com decisões de
-design documentadas no próprio README (não só o que o código faz, mas por quê).
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**[secure-auth-api](https://github.com/marianoccrs/secure-auth-api)**
-
-API de autenticação: hash de senha com bcrypt, JWT, bloqueio contra
-força bruta e política de senha.
-
-`Python` `FastAPI` `SQLAlchemy`
-
-</td>
-<td width="33%" valign="top">
-
-**[log-analyzer-python](https://github.com/marianoccrs/log-analyzer-python)**
-
-CLI que analisa logs SSH/Apache e detecta padrões de brute-force e
-scanning, com relatório em CSV/JSON.
-
-`Python`
-
-</td>
-<td width="33%" valign="top">
-
-**[secure-crud-api](https://github.com/marianoccrs/secure-crud-api)**
-
-API REST com isolamento de dados por usuário — proteção contra BOLA
-(#1 do OWASP API Security Top 10).
-
-`Python` `FastAPI` `SQLAlchemy`
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Prova técnica
-
-Trecho real do `secure-auth-api` — bloqueio de conta após tentativas de login
-repetidas, para mitigar força bruta:
-
-```python
-def register_failed_attempt(db: Session, user: models.User) -> None:
-    user.failed_login_attempts += 1
-    if user.failed_login_attempts >= MAX_FAILED_ATTEMPTS:
-        user.locked_until = datetime.now(timezone.utc) + timedelta(
-            minutes=LOCKOUT_DURATION_MINUTES
-        )
-    db.commit()
-```
-
-<br>
-
-## Estatísticas
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=marianoccrs&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marianoccrs&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
-
-<br>
-
-## Contato
-
-📧 mariano.caceres.dev@gmail.com · 🔗 [linkedin.com/in/marianoccrs](https://www.linkedin.com/in/marianoccrs/) · 📍 Rio de Janeiro, Brasil
