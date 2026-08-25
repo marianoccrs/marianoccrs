@@ -132,6 +132,8 @@ Arquivo Excel gerado em: output/estudo_hidratante_limpo.xlsx
 
 <br>
 🔎 Outros projetos
+
+
 🔐 secure-auth-api
 
 API de autenticação desenvolvida em Python, utilizada para praticar desenvolvimento de software, banco de dados e qualidade de aplicações.
@@ -200,7 +202,7 @@ atenção aos detalhes.
 📫 Contato
 
 📧 mariano.caceres.dev@gmail.com
-🔗 linkedin.com/in/marianoccrs
+🔗 [linkedin.com/in/marianoccrs](https://www.linkedin.com/in/marianoccrs/)
 📍 Rio de Janeiro, Brasil
 
 <br> <div align="center">
