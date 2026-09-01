@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banners" width="100%" alt="Mariano Cáceres - Backend Development & Application Security">
+<img src="./assets/banners.jpg" width="100%" alt="Mariano Cáceres - Backend Development & Application Security">
 
 <h3>BACKEND · PYTHON · FASTAPI · APPSEC · CYBERSECURITY</h3>
 
