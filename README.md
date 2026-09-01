@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/marianoccrs/marianoccrs/main/assets/banner.jpg" width="100%" alt="Mariano Cáceres - Backend Development & Application Security">
+<img src="https://raw.githubusercontent.com/marianoccrs/marianoccrs/main/assets/banners.jpg" width="100%" alt="Mariano Cáceres - Backend Development & Application Security">
 
 <br><br>
 
