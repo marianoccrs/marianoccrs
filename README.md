@@ -1,7 +1,8 @@
-````markdown
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/marianoccrs/marianoccrs/main/assets/banners.jpg" width="100%" alt="Mariano Cáceres - Backend Development & Application Security">
+
+<br>
 
 <h3>BACKEND · PYTHON · FASTAPI · APPSEC · CYBERSECURITY</h3>
 
@@ -9,7 +10,6 @@
   <img src="https://img.shields.io/badge/Python-050B14?style=for-the-badge&logo=python&logoColor=00D9FF">
   <img src="https://img.shields.io/badge/FastAPI-050B14?style=for-the-badge&logo=fastapi&logoColor=00D9FF">
   <img src="https://img.shields.io/badge/OWASP-050B14?style=for-the-badge&logo=owasp&logoColor=00D9FF">
-  <img src="https://img.shields.io/badge/Kali_Linux-050B14?style=for-the-badge&logo=kalilinux&logoColor=00D9FF">
   <img src="https://img.shields.io/badge/Linux-050B14?style=for-the-badge&logo=linux&logoColor=00D9FF">
   <img src="https://img.shields.io/badge/Git-050B14?style=for-the-badge&logo=git&logoColor=00D9FF">
 </p>
