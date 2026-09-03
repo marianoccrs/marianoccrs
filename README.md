@@ -23,23 +23,23 @@
 
 ## About Me
 
-Sou estudante de **Engenharia de Software e Cibersegurança**, com foco em **Backend Development, Python, FastAPI e Application Security (AppSec)**.
+I'm a **Software Engineering and Cybersecurity** student, focused on **Backend Development, Python, FastAPI, and Application Security (AppSec)**.
 
-Construo projetos práticos relacionados a desenvolvimento de APIs, autenticação, autorização, controle de acesso, segurança de aplicações e análise de logs.
+I build hands-on projects related to API development, authentication, authorization, access control, application security, and log analysis.
 
-Meu posicionamento profissional está na interseção entre:
+My professional positioning sits at the intersection of:
 
 **Backend Development + Software Engineering + Application Security + Cybersecurity**
 
-Atualmente busco minha primeira oportunidade como **Estagiário de Desenvolvimento Backend, Desenvolvedor Backend Júnior, Estagiário de Cybersecurity ou Estagiário de AppSec**.
+I'm currently seeking my first opportunity as a **Backend Development Intern, Junior Backend Developer, Cybersecurity Intern, or AppSec Intern**.
 
-Meu objetivo é desenvolver uma base sólida de engenharia de software e segurança, combinando desenvolvimento backend com práticas de segurança desde a concepção das aplicações.
+My goal is to build a solid foundation in software engineering and security, combining backend development with security practices from the very start of an application's design.
 
 ---
 
 ## Security Focus
 
-Meu principal foco técnico está em compreender como aplicações backend podem ser projetadas, implementadas, testadas e protegidas considerando segurança desde o desenvolvimento.
+My main technical focus is understanding how backend applications can be designed, implemented, tested, and protected with security in mind from the outset.
 
 ### Application Security
 
@@ -59,9 +59,9 @@ Brute-force Protection
 Account Lockout
 Log Analysis
 Linux Security
-````
+```
 
-Meu objetivo não é apenas implementar funcionalidades, mas compreender **como uma aplicação pode falhar, como pode ser abusada e quais controles podem reduzir esses riscos**.
+My goal isn't just to implement features, but to understand **how an application can fail, how it can be abused, and which controls can reduce those risks**.
 
 > Security should be part of the development process from the beginning.
 
@@ -69,12 +69,12 @@ Meu objetivo não é apenas implementar funcionalidades, mas compreender **como 
 
 ## Kali Linux & Cybersecurity Environment
 
-Atualmente estou utilizando **Kali Linux como meu principal e único sistema operacional**, direcionando meu ambiente de estudo para **Cybersecurity, Application Security, Linux Security e desenvolvimento seguro**.
+I'm currently using **Kali Linux as my main and only operating system**, directing my study environment toward **Cybersecurity, Application Security, Linux Security, and secure development**.
 
-Estou utilizando o Kali Linux como ambiente principal para aprofundar conhecimentos em:
+I use Kali Linux as my primary environment to deepen my knowledge of:
 
 * Linux
-* Terminal e CLI
+* Terminal and CLI
 * Networking
 * Application Security
 * Web Security
@@ -87,7 +87,7 @@ Estou utilizando o Kali Linux como ambiente principal para aprofundar conhecimen
 * Secure Development
 * Cybersecurity Tools
 
-Meu objetivo é construir familiaridade real com um ambiente Linux voltado à segurança, utilizando a linha de comando e ferramentas de segurança como parte do meu processo diário de estudo e desenvolvimento.
+My goal is to build real familiarity with a security-oriented Linux environment, using the command line and security tools as part of my daily study and development process.
 
 **Current Environment**
 
@@ -132,14 +132,14 @@ Primary Focus
 
 Secure REST API authentication built with **Python and FastAPI**.
 
-Projeto desenvolvido para estudar mecanismos de autenticação, proteção de credenciais e controles de segurança em aplicações backend.
+A project developed to study authentication mechanisms, credential protection, and security controls in backend applications.
 
 ### Security Focus
 
-* Password hashing com bcrypt
+* Password hashing with bcrypt
 * JWT authentication
-* Política de senhas
-* Controle de tentativas de login
+* Password policy
+* Login attempt control
 * Account lockout
 * Input validation
 * Database persistence
@@ -188,11 +188,11 @@ Projeto desenvolvido para estudar mecanismos de autenticação, proteção de cr
 
 ## 🔐 secure-crud-api
 
-REST API focused on **authentication, authorization and user-level data isolation**.
+REST API focused on **authentication, authorization, and user-level data isolation**.
 
-Projeto desenvolvido com Python + FastAPI para estudar controle de acesso, autorização e isolamento de recursos entre usuários.
+A project built with Python + FastAPI to study access control, authorization, and resource isolation between users.
 
-O principal conceito de segurança estudado neste projeto é:
+The main security concept studied in this project is:
 
 **BOLA — Broken Object Level Authorization**
 
@@ -249,9 +249,9 @@ O principal conceito de segurança estudado neste projeto é:
 
 ## 🔎 log-analyzer-python
 
-CLI para análise de logs **SSH e Apache**.
+CLI for analyzing **SSH and Apache** logs.
 
-Ferramenta desenvolvida em Python para análise de logs, com foco na identificação de padrões potencialmente relacionados a **brute force, scanning e outros comportamentos suspeitos**.
+A tool developed in Python for log analysis, focused on identifying patterns potentially related to **brute force, scanning, and other suspicious behavior**.
 
 ### Features
 
@@ -271,7 +271,7 @@ Ferramenta desenvolvida em Python para análise de logs, com foco na identifica�
 
 # Software Engineering
 
-Além de desenvolver funcionalidades, busco construir uma visão de engenharia sobre as aplicações que desenvolvo.
+Beyond implementing features, I aim to build an engineering mindset around the applications I develop.
 
 ### Engineering Practices
 
@@ -288,7 +288,7 @@ Além de desenvolver funcionalidades, busco construir uma visão de engenharia s
 * Secure Coding
 * Application Security
 
-Meu objetivo é desenvolver software que seja:
+My goal is to develop software that is:
 
 ```text
 SECURE
@@ -306,7 +306,7 @@ SUSTAINABLE
 
 # Security Mindset
 
-Minha abordagem de desenvolvimento e estudo segue um ciclo orientado à segurança:
+My development and study approach follows a security-driven cycle:
 
 ```text
 ┌───────────────┐
@@ -342,9 +342,9 @@ Minha abordagem de desenvolvimento e estudo segue um ciclo orientado à seguran�
 └───────────────┘
 ```
 
-O objetivo não é apenas fazer uma aplicação funcionar.
+The goal isn't just to make an application work.
 
-É entender **como ela pode falhar, como pode ser abusada e como seus controles podem ser melhorados**.
+It's to understand **how it can fail, how it can be abused, and how its controls can be improved**.
 
 ---
 
@@ -366,15 +366,15 @@ O objetivo não é apenas fazer uma aplicação funcionar.
 
 # Complementary Experience
 
-Também desenvolvi um projeto relacionado a:
+I've also developed a project related to:
 
 **Python · pandas · Data Cleaning · Data Validation · Data Quality**
 
-O projeto utiliza uma base fictícia de estudo clínico para praticar limpeza, validação, identificação de inconsistências e análise da qualidade dos dados.
+The project uses a fictional clinical study dataset to practice cleaning, validation, inconsistency identification, and data quality analysis.
 
-Essa área representa uma experiência complementar.
+This area represents complementary experience.
 
-### Foco profissional principal
+### Main Professional Focus
 
 **Backend Development + Application Security + Cybersecurity**
 
@@ -382,14 +382,14 @@ Essa área representa uma experiência complementar.
 
 # Professional Goal
 
-Busco minha primeira oportunidade profissional como:
+I'm seeking my first professional opportunity as a:
 
-* Estagiário de Desenvolvimento Backend
-* Desenvolvedor Backend Júnior
-* Estagiário de Cybersecurity
-* Estagiário de AppSec
+* Backend Development Intern
+* Junior Backend Developer
+* Cybersecurity Intern
+* AppSec Intern
 
-Tenho interesse em oportunidades **presenciais, híbridas ou remotas**.
+I'm interested in **on-site, hybrid, or remote** opportunities.
 
 ### Areas of Interest
 
@@ -406,9 +406,9 @@ Tenho interesse em oportunidades **presenciais, híbridas ou remotas**.
 * Linux
 * Kali Linux
 
-Meu objetivo é evoluir profissionalmente construindo aplicações:
+My goal is to grow professionally by building applications that are:
 
-**seguras · organizadas · testáveis · documentadas · sustentáveis**
+**secure · organized · testable · documented · sustainable**
 
 ---
 
@@ -467,4 +467,3 @@ Meu objetivo é evoluir profissionalmente construindo aplicações:
 <sub>Building secure applications while growing as a software engineer.</sub>
 
 </div>
-```
