@@ -1,4 +1,4 @@
-<div align="center">
+[<div align="center">
 
 <img src="./assets/banners.jpg" width="100%" alt="Mariano Cáceres - Backend Development & Application Security">
 
@@ -467,3 +467,4 @@ My goal is to grow professionally by building applications that are:
 <sub>Building secure applications while growing as a software engineer.</sub>
 
 </div>
+](https://github.com/marianoccrs/log-analyzer-python)
